@@ -1,0 +1,31 @@
+#file name
+PDgeom2D.dat
+#norder1, norder2
+3 3
+#E, nu
+30.0d9  0.3d0
+#number of slits
+0
+#num of bc
+8
+#bc1: xmin, xmax, ymin, ymax, ....
+-0.1d0 1.0d-2 -6.1d0 6.1d0  1  0  0  0  0  0  0  0.0d0
+#bc2: xmin, xmax, ymin, ymax, ....  
+-0.1d0 1.0d-2 -6.1d0 6.1d0  0  1  0  0  0  0  0  0.0d0
+#bc3: xmin, xmax, ymin, ymax, .... 
+7.99d0 8.1d0 -6.1d0 6.1d0  0  0  1  0  0  0  0  0.0d0
+#bc4: xmin, xmax, ymin, ymax, ....  
+7.99d0 8.1d0 -6.1d0 6.1d0  0  0  0  0  1  0  0  0.0d0
+#bc3: xmin, xmax, ymin, ymax, .... 
+1.0d-2 7.99d0 -1.51d0 -1.49d0  0  0  0  1  0  0  0  0.0d0
+#bc4: xmin, xmax, ymin, ymax, ....  
+1.0d-2 7.99d0 -1.51d0 -1.49d0  0  0  0  0  1  0  0  0.0d0
+#bc3: xmin, xmax, ymin, ymax, .... 
+1.0d-2 7.99d0 1.49d0 1.51d0  0  0  0  1  0  0  0  0.0d0
+#bc4: xmin, xmax, ymin, ymax, ....  
+1.0d-2 7.99d0 1.49d0 1.51d0  0  0  0  0  1  0  0  0.0d0
+#num of output ops in u.
+0
+#num of output ops in v.
+0
+
